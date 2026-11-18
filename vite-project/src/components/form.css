@@ -1,0 +1,31 @@
+.contact-form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 20px auto;
+}
+
+.contact-form h2 {
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 220px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.contact-form button {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
